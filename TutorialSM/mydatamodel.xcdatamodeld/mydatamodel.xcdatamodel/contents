@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WallObject" representedClassName="WallObject" syncable="YES">
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createddate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sm_owner" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wallobject_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="WallObject" positionX="160" positionY="192" width="128" height="120"/>
+    </elements>
+</model>
